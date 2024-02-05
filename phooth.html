@@ -57,5 +57,10 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
+    <form id="postForm">
+  <input type="text" id="postContent" placeholder="Say something about this photo..." required>
+  <input type="file" id="photoUpload" accept="image/*" required>
+  <button type="submit">Post</button>
+</form>
 </html>
 
